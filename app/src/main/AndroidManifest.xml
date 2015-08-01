@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="projects.oss2015.cs.fundookid" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sounds"
+            android:label="@string/title_activity_sounds" >
+        </activity>
+        <activity
+            android:name=".colors"
+            android:label="@string/title_activity_colors" >
+        </activity>
+        <activity
+            android:name=".shapes"
+            android:label="@string/title_activity_shapes" >
+        </activity>
+        <activity
+            android:name=".Sounds"
+            android:label="@string/title_activity_sounds" >
+        </activity>
+        <activity
+            android:name=".Colors"
+            android:label="@string/title_activity_colors" >
+        </activity>
+        <activity
+            android:name=".Shapes"
+            android:label="@string/title_activity_shapes" >
+        </activity>
+        <activity
+            android:name=".Shoes"
+            android:label="@string/title_activity_shoes" >
+        </activity>
+        <activity
+            android:name=".Coat"
+            android:label="@string/title_activity_coat" >
+        </activity>
+    </application>
+
+</manifest>

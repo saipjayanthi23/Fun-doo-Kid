@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fundookid</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="anisound">Animal sounds</string>
+    <string name="title_activity_sounds">sounds</string>
+    <string name="title_activity_colors">colors</string>
+    <string name="title_activity_shapes">shapes</string>
+    <string name="title_activity_shoes">Shoes</string>
+    <string name="title_activity_coat">Coat</string>
+</resources>

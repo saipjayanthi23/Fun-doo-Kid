@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="projects.oss2015.cs.fundookid.Shoes"
+    android:background="@drawable/color">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton12"
+        android:src="@drawable/arrow2right"
+        android:onClick="onClickRightArrow"
+        android:background="#af7b6029"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/imageButton18" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton13"
+        android:layout_marginTop="47dp"
+        android:src="@drawable/blueboot"
+        android:onClick="onClickBlueBoot"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton17"
+        android:layout_alignTop="@+id/imageButton13"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/redboot"
+        android:onClick="onClickRedBoot"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton18"
+        android:src="@drawable/yellowboot"
+        android:onClick="onClickYellowBoot"
+        android:layout_below="@+id/imageButton13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Will you wear red boots??"
+        android:id="@+id/textView13"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="64dp"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

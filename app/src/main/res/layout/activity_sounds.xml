@@ -28,20 +28,20 @@
         android:typeface="serif"
         android:textColor="#ff000000"
         android:textSize="40sp"
-        android:layout_above="@+id/imageButton"
+        android:layout_above="@+id/CowButton"
         android:layout_alignLeft="@+id/textView8"
         android:layout_alignStart="@+id/textView8" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton"
+        android:id="@+id/CowButton"
         android:src="@drawable/cow"
-        android:onClick="onClickCow"
+
         android:layout_marginTop="68dp"
         android:layout_below="@+id/imageView"
-        android:layout_toLeftOf="@+id/imageButton6"
-        android:layout_toStartOf="@+id/imageButton6" />
+        android:layout_toLeftOf="@+id/LionButton"
+        android:layout_toStartOf="@+id/LionButton" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -52,17 +52,17 @@
         android:textColor="#ffff1e1c"
         android:typeface="serif"
         android:textStyle="bold|italic"
-        android:layout_below="@+id/imageButton"
-        android:layout_alignLeft="@+id/imageButton"
-        android:layout_alignStart="@+id/imageButton" />
+        android:layout_below="@+id/CowButton"
+        android:layout_alignLeft="@+id/CowButton"
+        android:layout_alignStart="@+id/CowButton" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton2"
+        android:id="@+id/CatButton"
         android:src="@drawable/cat"
-        android:onClick="onClickCat"
-        android:layout_alignTop="@+id/imageButton"
+
+        android:layout_alignTop="@+id/CowButton"
         android:layout_toRightOf="@+id/textView10"
         android:layout_toEndOf="@+id/textView10" />
 
@@ -72,9 +72,9 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="  Cat"
         android:id="@+id/textView4"
-        android:layout_below="@+id/imageButton"
-        android:layout_alignLeft="@+id/imageButton2"
-        android:layout_alignStart="@+id/imageButton2"
+        android:layout_below="@+id/CowButton"
+        android:layout_alignLeft="@+id/CatButton"
+        android:layout_alignStart="@+id/CatButton"
         android:textStyle="bold|italic"
         android:textSize="40sp"
         android:typeface="serif"
@@ -83,9 +83,9 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton3"
+        android:id="@+id/DogButton"
         android:src="@drawable/dog"
-        android:onClick="onClickDog"
+
         android:layout_below="@+id/textView3"
         android:layout_alignLeft="@+id/textView3"
         android:layout_alignStart="@+id/textView3" />
@@ -93,28 +93,27 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton4"
+        android:id="@+id/DuckButton"
         android:src="@drawable/duck"
-        android:onClick="onClickDuck"
-        android:layout_alignTop="@+id/imageButton3"
+        android:layout_alignTop="@+id/DogButton"
         android:layout_alignLeft="@+id/textView4"
         android:layout_alignStart="@+id/textView4" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton5"
+        android:id="@+id/LambButton"
         android:src="@drawable/lamb"
-        android:onClick="onClickLamb"
+
         android:layout_above="@+id/textView5"
         android:layout_centerHorizontal="true" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton6"
+        android:id="@+id/LionButton"
         android:src="@drawable/lion"
-        android:onClick="onClickLion"
+
         android:layout_below="@+id/textView8"
         android:layout_centerHorizontal="true" />
 
@@ -124,9 +123,9 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="  Dog"
         android:id="@+id/textView5"
-        android:layout_below="@+id/imageButton4"
-        android:layout_alignLeft="@+id/imageButton3"
-        android:layout_alignStart="@+id/imageButton3"
+        android:layout_below="@+id/DuckButton"
+        android:layout_alignLeft="@+id/DogButton"
+        android:layout_alignStart="@+id/DogButton"
         android:textStyle="bold|italic"
         android:typeface="serif"
         android:textSize="40sp"
@@ -139,8 +138,8 @@
         android:text="Duck"
         android:id="@+id/textView6"
         android:layout_alignTop="@+id/textView5"
-        android:layout_alignRight="@+id/imageButton4"
-        android:layout_alignEnd="@+id/imageButton4"
+        android:layout_alignRight="@+id/DuckButton"
+        android:layout_alignEnd="@+id/DuckButton"
         android:textStyle="bold|italic"
         android:textSize="40sp"
         android:textColor="#ffff1e1c"
@@ -149,10 +148,10 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton7"
+        android:id="@+id/PigButton"
         android:src="@drawable/pig"
-        android:onClick="onClickPig"
-        android:layout_alignBottom="@+id/imageButton2"
+
+        android:layout_alignBottom="@+id/CatButton"
         android:layout_centerHorizontal="true" />
 
     <TextView
@@ -162,14 +161,14 @@
         android:text="  Pig"
         android:id="@+id/textView7"
         android:layout_alignBottom="@+id/textView4"
-        android:layout_alignRight="@+id/imageButton7"
-        android:layout_alignEnd="@+id/imageButton7"
+        android:layout_alignRight="@+id/PigButton"
+        android:layout_alignEnd="@+id/PigButton"
         android:textStyle="bold|italic"
         android:textColor="#ffff1e1c"
         android:textSize="40sp"
         android:typeface="serif"
-        android:layout_alignLeft="@+id/imageButton5"
-        android:layout_alignStart="@+id/imageButton5" />
+        android:layout_alignLeft="@+id/LambButton"
+        android:layout_alignStart="@+id/LambButton" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -190,15 +189,15 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Lion"
         android:id="@+id/textView9"
-        android:layout_below="@+id/imageButton6"
+        android:layout_below="@+id/LionButton"
         android:textStyle="bold|italic"
         android:typeface="serif"
         android:textSize="40sp"
         android:textColor="#ffff1e1c"
         android:layout_alignLeft="@+id/textView8"
         android:layout_alignStart="@+id/textView8"
-        android:layout_alignRight="@+id/imageButton5"
-        android:layout_alignEnd="@+id/imageButton5" />
+        android:layout_alignRight="@+id/LambButton"
+        android:layout_alignEnd="@+id/LambButton" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -207,8 +206,8 @@
         android:text="Animal"
         android:id="@+id/textView10"
         android:layout_above="@+id/textView"
-        android:layout_alignRight="@+id/imageButton6"
-        android:layout_alignEnd="@+id/imageButton6"
+        android:layout_alignRight="@+id/LionButton"
+        android:layout_alignEnd="@+id/LionButton"
         android:textStyle="bold|italic"
         android:textColor="#ff000000"
         android:textSize="40sp"

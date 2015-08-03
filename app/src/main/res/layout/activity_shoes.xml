@@ -10,18 +10,6 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton12"
-        android:src="@drawable/arrow2right"
-        android:onClick="onClickRightArrow"
-        android:background="#af7b6029"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_below="@+id/imageButton18" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/imageButton13"
         android:layout_marginTop="47dp"
         android:src="@drawable/blueboot"

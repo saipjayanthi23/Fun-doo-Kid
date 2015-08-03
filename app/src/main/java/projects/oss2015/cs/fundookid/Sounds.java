@@ -29,31 +29,66 @@ public class Sounds extends ActionBarActivity {
     }
 
     public void onClickCow(View view){
+
+        checkSounds();
         mpCow.start();
     }
 
     public void onClickPig(View view){
+
+        checkSounds();
         mpPig.start();
     }
 
     public void onClickCat(View view){
+        checkSounds();
         mpCat.start();
     }
 
     public void onClickDog(View view){
+        checkSounds();
         mpDog.start();
     }
 
     public void onClickLamb(View view){
+        checkSounds();
         mpLamb.start();
     }
 
     public void onClickDuck(View view){
+
+        checkSounds();
         mpDuck.start();
     }
 
     public void onClickLion(View view){
+
+        checkSounds();
         mpLion.start();
+    }
+
+    public void checkSounds(){
+        if(mpCow.isPlaying() || mpCow.isLooping()) {
+            mpCow.stop();
+        }
+        if(mpPig.isPlaying() || mpPig.isLooping()) {
+            mpPig.stop();
+        }
+        if(mpCat.isPlaying() || mpCat.isLooping()) {
+            mpCat.stop();
+        }
+        if(mpDog.isPlaying() || mpDog.isLooping()) {
+            mpDog.stop();
+        }
+        if(mpLamb.isPlaying() || mpLamb.isLooping()) {
+            mpLamb.stop();
+        }
+        if(mpDuck.isPlaying() || mpDuck.isLooping()) {
+            mpDuck.stop();
+        }
+        if(mpLion.isPlaying() || mpLion.isLooping()) {
+            mpLion.stop();
+        }
     }
 
     @Override

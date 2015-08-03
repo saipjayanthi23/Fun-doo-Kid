@@ -22,14 +22,23 @@ public class Colors extends ActionBarActivity {
     }
 
     public void onClickBlueHat(View view){
+        if(mpAww.isPlaying() || mpAww.isLooping()) {
+            mpAww.stop();
+        }
         mpCheer.start();
     }
 
     public void onClickRedHat(View view){
-       mpAww.start();
+        if(mpCheer.isPlaying() || mpCheer.isLooping()) {
+            mpCheer.stop();
+        }
+        mpAww.start();
     }
 
     public void onClickYellowHat(View view){
+        if(mpCheer.isPlaying() || mpCheer.isLooping()) {
+            mpCheer.stop();
+        }
         mpAww.start();
     }
 

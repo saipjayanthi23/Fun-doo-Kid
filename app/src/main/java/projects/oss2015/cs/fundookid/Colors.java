@@ -21,10 +21,13 @@ public class Colors extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_colors);
 
+
         mpCheer= MediaPlayer.create(this, R.raw.cheering);
         mpAww= MediaPlayer.create(this, R.raw.aww);
         mpBlueHat=MediaPlayer.create(this,R.raw.bluehat);
+
         mpBlueHat.start();
+
 
     }
 
@@ -72,6 +75,7 @@ public class Colors extends ActionBarActivity {
             mpAww= MediaPlayer.create(this, R.raw.aww);
         }
         mpCheer.start();
+
     }
 
     public void onClickRedHat(View view){

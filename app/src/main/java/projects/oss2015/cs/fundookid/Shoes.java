@@ -24,9 +24,11 @@ public class Shoes extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shoes);
 
+
         mpCheer= MediaPlayer.create(this, R.raw.cheering);
         mpAww= MediaPlayer.create(this, R.raw.aww);
         mpRedBoots= MediaPlayer.create(this,R.raw.redboots);
+
         mpRedBoots.start();
 
     }

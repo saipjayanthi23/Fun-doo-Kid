@@ -22,10 +22,13 @@ public class Coat extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_coat);
 
+
         mpCheer= MediaPlayer.create(this, R.raw.cheering);
         mpAww= MediaPlayer.create(this, R.raw.aww);
         mpYellowCoat=MediaPlayer.create(this,R.raw.yellowcoat);
+
         mpYellowCoat.start();
+
     }
 
     public boolean onTouchEvent(MotionEvent touchevent)

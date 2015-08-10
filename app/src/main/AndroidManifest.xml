@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
@@ -19,35 +19,43 @@
         </activity>
         <activity
             android:name=".sounds"
-            android:label="@string/title_activity_sounds" >
+            android:label="@string/title_activity_sounds"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".colors"
-            android:label="@string/title_activity_colors" >
+            android:label="@string/title_activity_colors"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".shapes"
-            android:label="@string/title_activity_shapes" >
+            android:label="@string/title_activity_shapes"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".Sounds"
-            android:label="@string/title_activity_sounds" >
+            android:label="@string/title_activity_sounds"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".Colors"
-            android:label="@string/title_activity_colors" >
+            android:label="@string/title_activity_colors"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".Shapes"
-            android:label="@string/title_activity_shapes" >
+            android:label="@string/title_activity_shapes"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".Shoes"
-            android:label="@string/title_activity_shoes" >
+            android:label="@string/title_activity_shoes"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".Coat"
-            android:label="@string/title_activity_coat" >
+            android:label="@string/title_activity_coat"
+            android:screenOrientation="portrait" >
         </activity>
     </application>
 

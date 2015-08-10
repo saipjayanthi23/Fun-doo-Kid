@@ -63,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Fundoo Kid"
+        android:text="Fundoo Tots"
         android:id="@+id/textView2"
         android:layout_marginTop="144dp"
         android:textStyle="bold|italic"
@@ -78,5 +78,6 @@
         android:textColorLink="#fffbff19"
         android:textIsSelectable="false"
         android:theme="@android:style/Animation.Activity" />
+
 
 </RelativeLayout>

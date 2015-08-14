@@ -32,7 +32,7 @@ Future Enhancements: I would like to add some extra features to this application
 * Make it applicable for various android devices
 * Numbers
 * Alphabets
-* 
+
 
 Build/Install instructions:
 
@@ -46,7 +46,7 @@ Binary File:
 https://github.com/saipjayanthi23/Fundoo-Tots/blob/master/app/FundooTots.apk
 
 User Guide:
-
+https://github.com/saipjayanthi23/Fundoo-Tots/blob/master/FundooTots%20User%20Manual.pdf
 
 Bug Tracker/ Issue Tracker:
 https://github.com/saipjayanthi23/Fundoo-Tots/issues
